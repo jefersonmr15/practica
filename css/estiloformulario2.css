@@ -1,0 +1,24 @@
+.contenedor{
+	width: 500px;
+	min-height: 200px;
+	margin:0 auto;
+	border: 1px solid black;
+	padding: 20px;
+	background-color: #ccc;
+	overflow: hidden;
+}
+input,textarea,button {
+	display: block;
+	margin-bottom: 10px;
+}
+input:not([type=submit]),textarea{
+	width: 97%;
+	border: 1px solid;
+	padding: 4px;
+}
+form{
+	width: 60%;
+}
+input[type=submit]{
+	float: right;
+}

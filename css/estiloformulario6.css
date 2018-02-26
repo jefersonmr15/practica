@@ -1,0 +1,8 @@
+div p:nth-child(3n+5){
+	color: red;
+}
+p:first-line
+{
+	color: red;
+	font-size: 20px;
+}

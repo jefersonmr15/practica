@@ -1,0 +1,14 @@
+.uno{
+	width: 250px;
+	height: 150px;
+	background: blue;
+	position: relative;
+	top: 50px;
+	z-index: 1;
+}
+.dos{
+	width: 250px;
+	height: 150px;
+	background: red;
+	position: relative;
+}

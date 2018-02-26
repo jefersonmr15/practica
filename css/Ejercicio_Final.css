@@ -1,0 +1,104 @@
+html,body
+{
+	width: 100%;
+	height:100%;
+}
+body 
+{
+	background-image: url(../Image/fondo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+ 	display: table;
+ 	margin: 0;
+ 	font-family: sans-serif;
+ }
+ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#contenedor
+{	
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.contenido
+{
+	width: 800px;
+	min-height: 400px;
+	background-color:rgba(255,255,255, 0.8);
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+}
+	.columna1
+	{	
+	width: 25%;
+	float: left;
+	}
+	.columna1 > img
+	{
+		max-width: 100%;
+		width: auto;
+	}
+	
+		.columna1 ul li
+		{
+			margin: 10px;
+		}
+			.columna1 ul li div
+			{
+				height: 55px;
+				width: 55px;
+				display: inline-block;
+				margin-right: 5px;
+				vertical-align: middle;
+				background-image: url(../Image/sprite-redes.png);
+			}
+				.columna1 ul li div.facebook
+				{
+					background-position: -59px -60px;
+				}
+				.columna1 ul li div.twitter
+				{
+					background-position: 0 -60px;
+				}
+				.columna1 ul li div.instagram
+				{
+					background-position: -175px -60px;
+				}
+
+div.columna2
+{	
+	width: 70%;
+	float: right;
+}
+h1
+{
+	margin: 0 0 5px 0;
+}
+#nakamas
+{
+	min-height: 100px;
+}
+	#nakamas ul li
+	{
+		display: inline-block;
+	}
+		#nakamas ul li img
+		{
+			height: 90px;
+			margin-right: 5px;
+			width: 90px;
+		}
+		#nakamas h3
+		{
+			text-align: center;
+		}
+.clearfix
+{
+	clear: both;
+}

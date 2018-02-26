@@ -1,0 +1,18 @@
+.contenedor{
+	margin-right: 30%;
+	padding-left: 5%;
+	padding-bottom: 3%;
+	border: 1px solid;
+}
+textarea {
+	display: block;
+	margin-bottom: 5px;
+	width: 300px;
+}
+.division >div{
+	display: inline-block;
+	width: 45%;
+}
+img {
+	float: right;
+}

@@ -1,0 +1,12 @@
+div#contenedor{
+	width: 400px;
+	background: gray;
+	min-height: 200px;
+}
+div> div{
+	width: 100px;
+	height: 100px;
+	background: red;
+	margin:5px;
+	float: left;
+}
